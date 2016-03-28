@@ -1,0 +1,25 @@
+#divider-homepage {
+	background-image: url(http://i.imgur.com/IY8ixF8.png);
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+.divider-homepage h1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 1em;
+	line-height: 0.5;
+	/*background: rgba(255,255,255,0.5);*/
+	font-family: "Scriptina";
+  font-size: 80px;
+  text-align: center;
+  color: white;
+	opacity: 0.8;
+}
