@@ -1,5 +1,11 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*border: solid red 1px;*/
+}
+
 #divider-homepage {
-	background-image: url(http://i.imgur.com/IY8ixF8.png);
+	background-image: url(http://i.imgur.com/Gi6tm7t.jpg);
 	height: 100vh;
 	background-attachment: fixed;
 	background-position: center center;
@@ -7,19 +13,277 @@
 	position: relative;
 }
 
-.divider-homepage h1 {
+#divider-homepage h1 {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
-	height: 1em;
-	line-height: 0.5;
-	/*background: rgba(255,255,255,0.5);*/
-	font-family: "Scriptina";
-  font-size: 80px;
+	font-family: "Cinzel", serif;
+  font-size: 65px;
   text-align: center;
-  color: white;
+	color: #FFA6A3;
 	opacity: 0.8;
+  padding-top: 320px;
+}
+
+#top-menu-nav {
+  position: fixed;
+  top: 0;
+  background-color: white;
+  opacity: 0.9;
+  height: 50px;
+  width: 100%;
+	z-index: 100;
+	display: inline-block;
+}
+
+#top-menu li {
+  float: right;
+  display: inline-block;
+  padding-right: 22px;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+nav a {
+	color: #FFA6A3;
+	text-decoration: none;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 15pt;
+}
+
+a:hover {
+	color: #B0EAC8;
+}
+
+#animation {
+	position: absolute;
+	text-align: center;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #f2cdba;
+	font-family: "Quicksand";
+	padding-top: 270px;
+	font-size: 30pt;
+}
+
+#portfolio-divider {
+	width: 100%;
+	height: 560px;
+	background-color: #ffffff;
+	margin-top: 450px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+#portfolio-divider p {
+	text-align: center;
+}
+
+.imageBox {
+	margin-right: 35px;
+	float: right;
+	height: 250px;
+	width: 300px;
+	margin-top: 90px;
+}
+
+#web-image {
+	background-image: url(http://i.imgur.com/GRmYGga.jpg);
+	height: 250px;
+	width: 300px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#wedding-image {
+	background-image: url(http://i.imgur.com/SSzzWJO.jpg);
+	height: 250px;
+	width: 300px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#resume-image {
+	background-image: url(http://i.imgur.com/1IeFaL2.jpg);
+	height: 250px;
+	width: 300px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+figcaption {
+	display: block;
+	text-align: center;
+	margin-top: 260px;
+	font-family: "Quicksand";
+	color: #6B5553;
+}
+
+.extra-fig {
+	text-align: center;
+	margin-left: 80px;
+	margin-top: 20px;
+}
+
+figure a {
+	color: #FFA6A3;
+	text-decoration: none;
+	font-family: "Cinzel", serif;
+	font-size: 15pt;
+}
+
+figure a:hover {
+		color: #B0EAC8;
+}
+
+#headshot-divider {
+	background-image: url(http://i.imgur.com/MclrLBU.jpg);
+	height: 400px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+#headshot-divider h1 {
+	font-family: "Open Sans Condensed";
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	line-height: 1.2;
+	margin: 0 auto;
+	opacity: 1;
+	width: 68%;
+	padding-top: 120px;
+}
+
+#extra-headshot-paragraph {
+	color: white;
+	font-family: "Quicksand", sans-serif;
+	font-size: 10pt;
+	margin-left: 10px;
+	margin-top: 220px;
+}
+
+.meet-brittany-button {
+	 display: inline-block;
+   width: 200px;
+   padding: 8px;
+   color: #fff;
+   border: 1px solid #fff;
+   text-align: center;
+   outline: none;
+   text-decoration: none;
+	 position: absolute;
+	 margin-left: 522px;
+	 margin-top: 50px;
+	}
+
+	.meet-brittany-button:hover,
+	.meet-brittany-button:active {
+		background-color: #fff;
+		color: #FFA6A3;
+	}
+
+	.meet-brittany-button-transition {
+		display: inline-block;
+		width: 200px;
+		padding: 8px;
+		color: #fff;
+		border: 2px solid #fff;
+		text-align: center;
+		outline: none;
+		text-decoration: none;
+		transition: background-color 0.2s ease-out, color 0.2s ease-out;
+	}
+.meet-brittany-button-transition:hover,
+.meet-brittany-button-transition:active {
+	background-color: #fff;
+	color: #FFA6A3;
+	transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+#contact-divider {
+	width: 100%;
+	height: 360px;
+	background-color: #ffffff;
+	margin-top: 450px;
+	margin: 0 auto;
+}
+
+#lets-chat-contact-container {
+	width: 700px;
+	height: 300px;
+}
+
+#quote-paragraph {
+text-align: center;
+font-size: 30pt;
+margin-top: 70px;
+color: #6B5553;
+margin-left: 200px;
+margin-right: 200px;
+font-family: "Quicksand", sans-serif;
+}
+
+#shaw-paragraph {
+	text-align: center;
+	color: #FFA6A3;
+	margin-top: 10px;
+}
+
+#contact-divider a {
+	font-family: "Cinzel", serif;
+	font-size: 20pt;
+	color: #f2cdba;
+	text-decoration: none;
+}
+
+#contact-divider a:hover {
+	color: #B0EAC8;
+}
+
+footer {
+	background-color: #f2cdba;
+	width: 100%;
+	height: 30px;
+}
+
+#meet-brittany-section {
+	background-image: url(http://i.imgur.com/HguqEC8.jpg);
+	height: 400px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+#meet-brittany-container {
+	height: 175px;
+	width: 363px;
+	padding-top: 30px;
+}
+
+#meet-brittany-paragraph {
+	color: #f2cdba;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 30pt;
+	font-family: "Quicksand", sans-serif;
+}
+
+#emma-paragraph {
+	color: #FFA6A3;
+	padding-left: 130px;
+	padding-top: 10px;
+
 }

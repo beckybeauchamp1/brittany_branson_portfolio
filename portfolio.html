@@ -3,36 +3,97 @@
 <html lang="en">
 
 <head>
-<title>Brittany Branson</title>
-<link rel="stylesheet" href="portfolio.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <title>Brittany Branson</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
-  <nav id="top-menu-nav">
-    <ul id="top-menu" class="nav">
-      <li id="nav-lets-chat">
-        <a href="#">Let's Chat</a>
-      </li>
-      <li id="nav-weddings">
-        <a href="#">Weddings</a>
-      </li>
-      <li id="nav-web">
-        <a href="#">Web</a>
-      </li>
-      <li id="nav-meet-brittany">
-        <a href="#">Meet Brittany</a>
-      </li>
-      <li id="nav-home">
-        <a href="#">home</a>
-      </li>
+  <nav id="top-menu-nav" class="navbar navbar-right navbar-fixed-top">
+    <div class="container">
+      <ul id="top-menu" class="nav">
+        <li id="nav-lets-chat">
+          <a href="#">let's chat</a>
+        </li>
+        <li id="nav-weddings">
+          <a href="weddings.html">weddings</a>
+        </li>
+        <li id="nav-web">
+          <a href="web.html">web</a>
+        </li>
+        <li id="nav-meet-brittany">
+          <a href="meet_brittany.html">meet brittany</a>
+        </li>
+        <li id="nav-home">
+          <a href="portfolio.html">home</a>
+        </li>
+      </div>
     </nav>
 
     <div id="divider-homepage">
-      <h1>Brittany Branson</h1>
-      <h2>Pretty and Practical</h2>
+      <div id="animation">
+        <span></span>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>
+        var occupations=["Web Design", "UX Design", "Weddings", "Marketing"]
+        setInterval(function(){
+          $("span").fadeOut(function(){
+            var occupation= occupations[Math.floor(Math.random()*occupations.length)]
+            $("span").html(occupation).fadeIn()
+          })
+        },3000)
+        </script>
+        <h1>Brittany Branson</h1>
+      </div>
     </div>
 
+    <div id="portfolio-divider">
+      <figure>
+        <div id="web-image" class="imageBox">
+          <!-- <img src="http://placehold.it/250x250"> -->
+          <figcaption>I am a web designer and front-end developer. I believe in applications that are both pretty and practical.</figcaption>
+          <br>
+          <a href="web.html" class="extra-fig">View Web</a>
+        </div>
+      </figure>
 
-</body>
-</html>
+      <figure>
+        <div id="wedding-image" class="imageBox">
+          <!-- <img src="http://placehold.it/250x250"> -->
+          <figcaption>I am a wedding artist. I create custom, alternative guest book, seating chart, and detail paintings that will be treasured forever.</figcaption>
+          <br>
+          <a href="weddings.html" class="extra-fig">View Weddings</a>
+        </div>
+      </figure>
+
+      <figure>
+        <div id="resume-image" class="imageBox">
+          <!-- <img src="http://placehold.it/250x250"> -->
+          <figcaption>I am a former arts manager and educator. My professional journey has led me here, and I wouldn't change a thing.</figcaption>
+          <br>
+          <a href="#" class="extra-fig">View Resume</a>
+        </div>
+      </figure>
+    </div>
+
+    <div id="headshot-divider">
+      <h1>Fun Fact: I make the best steak au poivre!</h1>
+      <a href="meet_brittany.html" class="meet-brittany-button">Meet Brittany</a>
+      <p id="extra-headshot-paragraph">Image by Elizabeth Fogarty</p>
+    </div>
+
+    <div id="contact-divider">
+      <p id="quote-paragraph">"The single biggest problem in communication is the illusion that it has taken place."
+        <p id="shaw-paragraph">George Bernard Shaw</p>
+        <div id="lets-chat-contact-container">
+          <a href="mailto:bybrittanybranson@gmail.com">Let's Chat!</a>
+        </div>
+      </div>
+
+<footer>
+  <p>Designed by me</p>
+</footer>
+
+  </body>
+  </html>
