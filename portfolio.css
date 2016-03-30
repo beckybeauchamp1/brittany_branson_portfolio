@@ -289,9 +289,42 @@ footer {
 }
 
 #web-section {
-	background-image: url(http://i.imgur.com/DY7oihV.png);
+	height: 400px;
+	width: 100%;
+}
+
+#web-section img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: auto;
+	display: block;
+	position: fixed;
+}
+
+#wedding-section {
+	background-image: url(http://i.imgur.com/Jaz1B4c.jpg);
 	height: 400px;
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
+}
+
+#wedding-container {
+	height: 100px;
+	width: 763px;
+	padding-top: 140px;
+}
+
+#wedding-paragraph {
+	color: #f2cdba;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 30pt;
+	font-family: "Quicksand", sans-serif;
+}
+
+#jane-paragraph {
+	color: #FFA6A3;
+	padding-left: 300px;
+	padding-top: 10px;
 }
