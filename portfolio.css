@@ -152,6 +152,7 @@ figure a:hover {
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
+	opacity: 0.8;
 }
 
 #headshot-divider h1 {
@@ -285,5 +286,12 @@ footer {
 	color: #FFA6A3;
 	padding-left: 130px;
 	padding-top: 10px;
+}
 
+#web-section {
+	background-image: url(http://i.imgur.com/DY7oihV.png);
+	height: 400px;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
 }
