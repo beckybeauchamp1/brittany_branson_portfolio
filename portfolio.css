@@ -113,15 +113,15 @@ a:hover {
 }
 
 #resume-image {
-	background-image: url(http://i.imgur.com/1IeFaL2.jpg);
+	background-image: url(http://i.imgur.com/ffONpHh.jpg);
 	height: 250px;
 	width: 300px;
 	background-position: center center;
 	background-size: cover;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
-figcaption {
+#portfolio-divider figcaption {
 	display: block;
 	text-align: center;
 	margin-top: 260px;
@@ -185,7 +185,6 @@ figure a:hover {
    text-align: center;
    outline: none;
    text-decoration: none;
-	 position: absolute;
 	 margin-left: 522px;
 	 margin-top: 50px;
 	}
@@ -222,11 +221,6 @@ figure a:hover {
 	margin: 0 auto;
 }
 
-#lets-chat-contact-container {
-	width: 700px;
-	height: 300px;
-}
-
 #quote-paragraph {
 text-align: center;
 font-size: 30pt;
@@ -248,6 +242,7 @@ font-family: "Quicksand", sans-serif;
 	font-size: 20pt;
 	color: #f2cdba;
 	text-decoration: none;
+	justify-content: center;
 }
 
 #contact-divider a:hover {
@@ -266,6 +261,7 @@ footer {
 	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
+	padding-bottom: 30px;
 }
 
 #meet-brittany-container {
@@ -288,17 +284,118 @@ footer {
 	padding-top: 10px;
 }
 
+#brittany-bio-section {
+	height: 500px;
+	background-color: #FFF4F1;
+	opacity: 0.8;
+	background-image: url(http://i.imgur.com/ggTB9CQ.jpg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 680px;
+	padding-right: 60px;
+	padding-top: 80px;
+	padding-bottom: 70px;
+	font-family: "Quicksand", sans-serif;
+	font-size: 12pt;
+	line-height: 1.5em;
+}
+
+#brittany-bio-section div {
+	margin: auto 0;
+}
+
+#liz-paragraph {
+	padding-right: 500px;
+}
+
 #web-section {
 	height: 400px;
 	width: 100%;
+	background-image: url(http://i.imgur.com/DYXnk9s.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 30px;
 }
 
-#web-section img {
+
+/*#web-section img {
 	max-width: 100%;
 	max-height: 100%;
 	margin: auto;
 	display: block;
 	position: fixed;
+}*/
+
+#web-intro-section {
+	height: 200px;
+	width: 100%;
+	background-color: #FFF4F1;
+}
+
+#web-intro-section div {
+	margin: 0 auto;
+	width: 700px;
+	height: 170px;
+	padding-top: 30px;
+}
+
+#web-intro-section p {
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	/*padding-top: 50px;*/
+}
+
+#web-information-section {
+	width: 100%;
+	height: 560px;
+	background-color: #ffffff;
+	margin-top: 450px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+#web-image-one {
+	background-image: url(http://i.imgur.com/wllkQag.png);
+	height: 250px;
+	width: 300px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#web-image-two {
+	background-image: url(http://i.imgur.com/LfnFZpo.png);
+	height: 250px;
+	width: 300px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#web-image-three {
+	background-image: url(http://i.imgur.com/X4eOGqS.jpg);
+	height: 250px;
+	width: 300px;
+	background-position: center center;
+	background-size: cover;
+	opacity: 0.8;
+}
+
+#web-information-section figcaption {
+	display: block;
+	text-align: center;
+	margin-top: 270px;
+	font-family: "Quicksand";
+	color: #6B5553;
+}
+
+#web-resume-section {
+	height: 500px;
+	width: 100%;
+	background-color: #FFF4F1;
 }
 
 #wedding-section {
@@ -312,7 +409,7 @@ footer {
 #wedding-container {
 	height: 100px;
 	width: 763px;
-	padding-top: 140px;
+	padding-top: 120px;
 }
 
 #wedding-paragraph {
@@ -327,4 +424,75 @@ footer {
 	color: #FFA6A3;
 	padding-left: 300px;
 	padding-top: 10px;
+}
+
+#wedding-intro-section {
+	height: 200px;
+	width: 100%;
+	background-color: #FFF4F1;
+}
+
+#wedding-intro-first-line {
+	color: #f2cdba;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 15pt;
+	font-family: "Cinzel", serif;
+}
+
+#wedding-intro-section div {
+	margin: 0 auto;
+	width: 700px;
+	height: 170px;
+}
+
+#wedding-intro-section p {
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+}
+
+.gallery-container {
+	position: relative;
+	height: 320px;
+	text-align: center;
+}
+
+.thumbnail img {
+	border: 1px solid white;
+	margin: 0 5px 0;
+	padding-right: 40px;
+	padding-top: 20px;
+}
+
+.thumbnail:hover {
+	background-color: transparent;
+}
+
+.thumbnail:hover img {
+	border: 1px solid #FFA6A3;
+}
+
+.thumbnail span {
+	position: absolute;
+	background-color: #FFA6A3;
+	padding: 5px;
+	left: -1000px;
+	border: 1px solid #FFA6A3;
+	visibility: hidden;
+	color: white;
+	text-decoration: none;
+}
+
+.thumbnail span img {
+	border-width: 0;
+	padding: 2px;
+	height: 620px;
+	width: 620px;
+}
+
+.thumbnail:hover span {
+	visibility: visible;
+	top: 0;
+	left: 230px;
+	z-index: 50;
 }
