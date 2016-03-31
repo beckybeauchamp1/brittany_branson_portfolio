@@ -87,11 +87,11 @@ a:hover {
 }
 
 .imageBox {
-	margin-right: 35px;
+	margin-right: 65px;
 	float: right;
 	height: 250px;
 	width: 300px;
-	margin-top: 90px;
+	margin-top: 60px;
 }
 
 #web-image {
@@ -302,6 +302,7 @@ footer {
 
 #brittany-bio-section div {
 	margin: auto 0;
+	color: #6B5553;
 }
 
 #liz-paragraph {
@@ -329,7 +330,7 @@ footer {
 }*/
 
 #web-intro-section {
-	height: 200px;
+	height: 300px;
 	width: 100%;
 	background-color: #FFF4F1;
 }
@@ -338,12 +339,22 @@ footer {
 	margin: 0 auto;
 	width: 700px;
 	height: 170px;
-	padding-top: 30px;
+	padding-top: 5px;
+}
+
+#web-intro-section h1 {
+	color: #FFA6A3;
+	padding-top: 60px;
+	/*padding-left: 20px;*/
+	font-size: 15pt;
+	font-family: "Cinzel", serif;
+	text-align: center;
 }
 
 #web-intro-section p {
 	text-align: center;
 	font-family: "Quicksand", sans-serif;
+	color: #6B5553;
 	/*padding-top: 50px;*/
 }
 
@@ -414,7 +425,7 @@ footer {
 
 #wedding-paragraph {
 	color: #f2cdba;
-	padding-top: 20px;
+	padding-top: 5px;
 	padding-left: 20px;
 	font-size: 30pt;
 	font-family: "Quicksand", sans-serif;
@@ -427,17 +438,18 @@ footer {
 }
 
 #wedding-intro-section {
-	height: 200px;
+	height: 300px;
 	width: 100%;
 	background-color: #FFF4F1;
 }
 
 #wedding-intro-first-line {
-	color: #f2cdba;
-	padding-top: 10px;
-	padding-left: 20px;
+	color: #FFA6A3;
+	padding-top: 60px;
+	/*padding-left: 20px;*/
 	font-size: 15pt;
 	font-family: "Cinzel", serif;
+	text-align: center;
 }
 
 #wedding-intro-section div {
@@ -449,6 +461,7 @@ footer {
 #wedding-intro-section p {
 	text-align: center;
 	font-family: "Quicksand", sans-serif;
+	color: #6B5553;
 }
 
 .gallery-container {
