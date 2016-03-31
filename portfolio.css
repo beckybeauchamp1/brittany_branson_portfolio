@@ -255,6 +255,13 @@ footer {
 	height: 30px;
 }
 
+footer p {
+	color: #6B5553;
+	font-family: "Cinzel", serif;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+
 #meet-brittany-section {
 	background-image: url(http://i.imgur.com/HguqEC8.jpg);
 	height: 400px;
@@ -306,7 +313,9 @@ footer {
 }
 
 #liz-paragraph {
-	padding-right: 500px;
+	padding-right: 475px;
+	color: white;
+	font-family: "Cinzel", serif;
 }
 
 #web-section {
