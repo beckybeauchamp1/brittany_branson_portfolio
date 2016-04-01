@@ -279,7 +279,7 @@ footer p {
 
 #meet-brittany-paragraph {
 	color: #f2cdba;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-left: 20px;
 	font-size: 30pt;
 	font-family: "Quicksand", sans-serif;
@@ -300,8 +300,8 @@ footer p {
 	background-repeat: no-repeat;
 	padding-left: 680px;
 	padding-right: 60px;
-	padding-top: 80px;
-	padding-bottom: 70px;
+	padding-top: 40px;
+	padding-bottom: 110px;
 	font-family: "Quicksand", sans-serif;
 	font-size: 12pt;
 	line-height: 1.5em;
@@ -313,9 +313,7 @@ footer p {
 }
 
 #liz-paragraph {
-	padding-right: 475px;
-	color: white;
-	font-family: "Cinzel", serif;
+margin-top: 10px;
 }
 
 #web-section {
